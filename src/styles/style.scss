@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: auto;
+    .main, .about{
+        min-height: 90vh
+    }
+}
+
+.morePicture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    button{
+        font-size: 1.5rem;
+        background-color: antiquewhite;
+        color: blueviolet;
+        padding: 1rem;
+        border-radius: 0;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@import "./_nav.scss";
+@import "./_search.scss";
+@import "./_footer.scss";
+@import "./_picture.scss";

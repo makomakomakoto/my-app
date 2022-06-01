@@ -1,0 +1,17 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem;
+    input, button{
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    button{
+        background-color: antiquewhite;
+        color: blueviolet;
+        margin: 0 1rem;
+        border: 1px solid antiquewhite;
+        cursor: pointer;
+    }
+}

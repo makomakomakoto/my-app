@@ -1,0 +1,16 @@
+nav{
+    background-color: antiquewhite;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 3rem;
+        li{
+            padding: 0.5rem 1rem;
+            a{
+                font-size: 1.5rem;
+                color: blueviolet;
+            }
+        }
+    }
+}

@@ -1,14 +1,22 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Homepage from './pages/Homepage';
+import About from "./pages/About";
+import { Routes, Route } from "react-router-dom";
+import "./styles/style.css";
 
 const App=()=>{
   return (
-    <div>
-      <h1>This</h1>
-      <p>this</p>
-      <button>check</button>
+    <div className='App'>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer/>
     </div>
-  );
+  ); 
 }
 
 export default App;
